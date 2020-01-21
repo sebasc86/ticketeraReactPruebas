@@ -10,11 +10,14 @@ export default class Badges extends Component {
 								
 					<div className="index card bg-light mb-3 info">
 						<div className="card-header h6 bg-primary text-white">{this.props.title}</div>
-							<a className="card-body link-container"  href="new">
-								<div className="row align-items-center">
-										<img className='imgIndex' src={this.props.TicketImg} alt={this.props.alt} />
-								</div>
-							</a>
+							<div className="card-body">
+								<a className="card-link"  href="new">
+									<div className="img-container d-flex align-items-center">
+											<img className='imgIndexBadges mx-auto d-block' src={this.props.TicketImg} alt={this.props.alt} />
+									</div>
+								</a>
+							</div>
+						
 					</div>
 
 						

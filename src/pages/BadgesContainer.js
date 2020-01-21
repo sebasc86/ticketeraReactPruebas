@@ -55,8 +55,8 @@ export default class BadgeSectorContainer extends Component {
         <div className="class-name">
          
          
-              <div className="">
-                <div className="container px-5 mt-4 d-flex justify-content-between">
+              <div className="container mt-5 px-5">
+                <div className="card-columns px-5 mt-4 justify-content-between">
 
                 <Badges TicketImg={newTicketImg} title="Crear Nuevo ticket" alt="Nuevo ticket"/>
                 <Badges TicketImg={sendTicketImg} title="Tickets Enviados" alt="Tickets Enviados"/>
@@ -64,7 +64,7 @@ export default class BadgeSectorContainer extends Component {
                 
 
                 </div>
-                <div className="container px-5 mt-4 d-flex justify-content-between">
+                <div className="card-columns px-5 mt-4 justify-content-between">
                   <BadgesSectorsList sectors={this.state.data}/>
                 </div>
                 

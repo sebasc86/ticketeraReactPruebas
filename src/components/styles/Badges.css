@@ -8,7 +8,8 @@ div.index {
   -webkit-box-shadow: -1px 3px 18px 1px rgba(0, 109, 240, 0.47);
 	-moz-box-shadow: -1px 3px 18px 1px rgba(0, 109, 240, 0.47);
 	background-color: #fff;
-
+	max-width: 250px;
+	
 }
 
 div.index:hover {
@@ -27,8 +28,16 @@ justify-content: center;
 
 }
 
-.imgIndex {
-max-width: 100px;
+.imgIndexBadges {
+max-width: 80px;
 max-height: 25vh;
 }
 
+.imgIndexSectors {
+	max-width: 100px;
+	max-height: 25vh;
+	}
+
+.img-container {
+	min-height: 15vh
+}
