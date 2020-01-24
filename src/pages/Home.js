@@ -13,7 +13,7 @@ class Home extends React.Component {
                <Navbar/>
                <BadgesContainer />
                
-             
+               
             </React.Fragment>
           );
     }
